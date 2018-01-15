@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<info>
+	<namespace>IssueCreator</namespace>
+	<id>issue_creator</id>
+	<name>Issue Creator</name>
+	<description>Helps with the process of creating a bug report in GitHub by asking the right questions and gathering instance information</description>
+	<licence>GPL</licence>
+	<author>Tom Needham</author>
+	<version>0.0.1</version>
+	<category>other</category>
+	<dependencies>
+		<owncloud min-version="10" max-version="10" />
+	</dependencies>
+	<commands>
+		<command>OCA\IssueCreator\Command\CreateIssue</command>
+	</commands>
+</info>
